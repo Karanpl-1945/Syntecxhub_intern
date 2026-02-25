@@ -103,11 +103,17 @@ These files can be reused for prediction without retraining the model.
    ```bash
    cd task2
 
-2.Open the notebook:
+ 
+```markdown
+2. Open the notebook:
 
-jupyter notebook spam_classifier.ipynb
+    ```bash
+    jupyter notebook spam_classifier.ipynb
+    ```
 
-3.Run all cells sequentially to:
+3. Run all cells sequentially to:
+   - Train the model
+   - Generate `model.pkl` and `vectorizer.pkl`
 
-  Train the model
-  Generate model.pkl and vectorizer.pkl
+
+
