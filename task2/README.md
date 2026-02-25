@@ -45,7 +45,7 @@ The notebook includes the following steps:
 
 ---
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 ### 🔹 Text Preprocessing
 - Removal of unnecessary characters
@@ -82,33 +82,14 @@ These files can be reused for prediction without retraining the model.
 - Scikit-learn  
 - Pickle  
 
----
+## How to Run Task 2
+1. Open the notebook
+2. Run all cells sequentially to Train the spam classification model
+3. Generate the following files:
 
-## ▶️ How to Run Task 2
+model.pkl (Trained spam classification model)
 
-1. Navigate to the task folder:
-   ```bash
-   cd task2
+vectorizer.pkl(Fitted text vectorizer used for transforming input messages)
 
- 
-```markdown
-2. Open the notebook:
-
-    ```bash
-    jupyter notebook spam_classifier.ipynb
-    ```
-
-3. Run all cells sequentially to:
-   - Train the model
-   - Generate `model.pkl` and `vectorizer.pkl`
-
-
-Saved Files
-
-model.pkl – Trained spam classification model
-
-vectorizer.pkl – Fitted text vectorizer
-
-These files can be reused for prediction without retraining.
-
+These files can be reused for prediction without retraining the model.
 
