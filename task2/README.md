@@ -17,19 +17,6 @@ by applying text preprocessing, feature extraction, and machine learning classif
 
 ---
 
-## 📂 Project Structure
-
-task2/
-│── README.md
-│── spam_classifier.ipynb
-│── spam.csv
-│── model.pkl
-│── vectorizer.pkl
-
-
-
----
-
 ## 📊 Dataset Description
 
 - **File Name:** `spam.csv`
@@ -115,5 +102,13 @@ These files can be reused for prediction without retraining the model.
    - Train the model
    - Generate `model.pkl` and `vectorizer.pkl`
 
+
+Saved Files
+
+model.pkl – Trained spam classification model
+
+vectorizer.pkl – Fitted text vectorizer
+
+These files can be reused for prediction without retraining.
 
 
