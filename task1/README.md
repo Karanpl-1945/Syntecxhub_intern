@@ -5,15 +5,6 @@ The analysis focuses on **data preprocessing, log-transformation, feature engine
 
 ---
 
-## 📁 Repository Structure
-
-.
-├── task1.ipynb # Main Jupyter notebook (analysis & modeling)
-├── house-price-parquet.csv # Housing dataset
-└── README.md # Project documentation
-
-
----
 
 ## 📊 Dataset Description
 
@@ -30,7 +21,7 @@ The dataset consists of housing characteristics and amenities used to predict ho
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1️⃣ Data Preprocessing
 - Categorical variables converted into dummy variables
